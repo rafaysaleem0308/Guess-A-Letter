@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoring Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the Missing Letter</h1>
+      <br />
+      <div class="wordDisplay">
+        <!-- Word display area where the word with a missing letter will appear -->
+      </div>
+
+      <input
+        type="text"
+        class="letterInput"
+        placeholder="Enter the missing letter"
+      />
+      <button class="submitBtn">Submit</button>
+
+      <p class="resultMessage"></p>
+
+      <div class="scoreBox">
+        <div class="score">
+          <h3>Score</h3>
+          <p class="scoreValue">0</p>
+        </div>
+        <div class="highScore">
+          <h3>High Score</h3>
+          <p class="highScoreValue">0</p>
+        </div>
+      </div>
+
+      <br />
+      <!-- Added line break for space -->
+
+      <button class="btn2">PLAY AGAIN</button><br />
+      <!-- Adjusted layout for button spacing -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
